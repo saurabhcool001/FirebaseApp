@@ -35,9 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 database = FirebaseDatabase.getInstance();
                 myRef = database.getReference("message");
 
-                myRef.child("users").child("1").setValue("Hello");
-
-//                myRef.setValue("Hello, World!!!!");
+                myRef.setValue("Hello, World!!!!");
 
 
 
