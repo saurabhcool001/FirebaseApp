@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
                 myRef = database.getReference("message");
 
                 myRef.setValue("Hello, World!!!!");
-
-
-
             } });
     }
 }
